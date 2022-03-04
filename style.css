@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .mw-200 {
+        max-width: 400px;
+    }
+}
+@media (min-width: 768px) {
+    .mw-200 {
+        max-width: 200px;
+    }
+}
+
+.mw-200 {
+    width: 100%;
+}
