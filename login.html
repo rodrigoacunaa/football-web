@@ -22,15 +22,14 @@
             </form>
         </ul>-->
         <!--<a class='btn btn-primary my-2 my-sm-0 mr-3' type='button' href='#'>Login</a>-->
-        <a class='btn btn-primary ml-auto my-2 my-sm-0 mr-3' type='button' href='login.html'>Login</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="equipos.html">Equipos</a>
@@ -47,19 +46,26 @@
     <!-- /Navbar -->
     <!-- Titulo -->
     <div class="bg-white">
-      <h1 class="text-center display-2" style="padding-top: 5rem;">FÚTBOL ARGENTO</h1>
-      <!--<hr class="w-25">-->
-      <p class="text-center font-italic" style="padding-bottom: 3rem; font-size: 1.2rem;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit".</p>
+        <h1 class="text-center display-2" style="padding-top: 5rem; padding-bottom: 3rem;">INICIAR SESIÓN</h1>
+        <!--<p class="text-center font-italic" style="padding-bottom: 3rem; font-size: 1.2rem;">"Lista de equipos apadrinadores".</p>-->
     </div>
-    <!-- !Titulo -->
-    <div class="container-fluid mt-2 p-0">
-        <!-- Body -->
-        <div class="container pb-2 bg-white">
-            <h2>¿Quienes somos?</h2>
-            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quae nesciunt tempore mollitia laboriosam deserunt velit cumque et quos nulla voluptas harum sit accusamus veritatis officia nemo quisquam, esse corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, hic? Animi ipsa similique quam adipisci quidem quibusdam odit voluptates. Nisi expedita, ratione voluptates amet veritatis itaque cum accusamus at natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis optio numquam ipsa obcaecati dignissimos autem velit minus aliquid, repudiandae tenetur maxime repellendus magnam nemo neque. Reiciendis tempora quam unde.</p>
-        </div>
-        <!-- /Body -->
-    </div>
+    <!-- /Titulo -->
+    <!-- Login -->
+    <div class="container bg-light mt-5 p-2 needs-validation" style="border-radius: 4px; box-shadow: 5px 5px #333;" novalidate>
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+          <div class="form-group">
+            <label for="loginEmail">Correo Electronico</label>
+            <input type="email" name="Email_login" class="form-control" id="loginEmail" aria-describedby="emailHelp" required>
+          </div>
+          <div class="form-group">
+            <label for="loginPass">Contraseña</label>
+            <input type="password" name="Contraseña_login" class="form-control" id="loginPass" required>
+          </div>
+          <button type="submit" name="login" value="login" class="btn btn-primary">Submit</button>
+          <a href="register.php" class="text-primary ml-2">Quiero solicitar una cuenta</a>
+        </form>
+      </div>
+      <!-- /login -->
     <!-- Optional JavaScript; choose one of the two! -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
