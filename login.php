@@ -11,10 +11,10 @@
 
     <title>Futbol</title>
   </head>
-  <body class="bg-dark">
+  <body class="bg-light">
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">Fútbol Argento <ion-icon name="football" style="vertical-align:-4px;"></ion-icon></a>
+        <a class="navbar-brand" href="#">Fútbol Argento <ion-icon name="football" style="vertical-align:-4px;"></ion-icon></a>
         <!--<ul class="navbar-nav ml-auto mr-5">
           <form class="form-inline my-2 my-lg-0">
               <input class="form-control" type="search" placeholder="Search" aria-label="Search">
@@ -22,15 +22,14 @@
             </form>
         </ul>-->
         <!--<a class='btn btn-primary my-2 my-sm-0 mr-3' type='button' href='#'>Login</a>-->
-        <a class='btn btn-primary ml-auto my-2 my-sm-0 mr-3' type='button' href='login.php'>Login</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="equipos.html">Equipos</a>
@@ -45,21 +44,24 @@
         </div>
       </nav>
     <!-- /Navbar -->
-    <!-- Titulo -->
-    <div class="bg-white">
-      <h1 class="text-center display-2" style="padding-top: 5rem;">FÚTBOL ARGENTO</h1>
-      <!--<hr class="w-25">-->
-      <p class="text-center font-italic" style="padding-bottom: 3rem; font-size: 1.2rem;">"Lorem ipsum dolor sit amet, consectetur adipisicing elit".</p>
-    </div>
-    <!-- !Titulo -->
-    <div class="container-fluid mt-2 p-0">
-        <!-- Body -->
-        <div class="container pb-2 bg-white">
-            <h2>¿Quienes somos?</h2>
-            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quae nesciunt tempore mollitia laboriosam deserunt velit cumque et quos nulla voluptas harum sit accusamus veritatis officia nemo quisquam, esse corporis! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, hic? Animi ipsa similique quam adipisci quidem quibusdam odit voluptates. Nisi expedita, ratione voluptates amet veritatis itaque cum accusamus at natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat blanditiis optio numquam ipsa obcaecati dignissimos autem velit minus aliquid, repudiandae tenetur maxime repellendus magnam nemo neque. Reiciendis tempora quam unde.</p>
-        </div>
-        <!-- /Body -->
-    </div>
+    
+    <!-- Login -->
+    <div class="container shadow-lg bg-white p-2 needs-validation" style="border-radius: 30px; max-width: 450px; height: 360px; margin-top: 10vh;" novalidate>
+        <h4 class="text-center my-4">Iniciar Sesión</h4>
+        <form method="POST" action="#" class="mx-2">
+          <div class="form-group">
+            <label for="loginEmail">Correo Electronico</label>
+            <input type="email" name="Email_login" class="form-control" id="loginEmail" aria-describedby="emailHelp" required>
+          </div>
+          <div class="form-group">
+            <label for="loginPass">Contraseña</label>
+            <input type="password" name="Contraseña_login" class="form-control" id="loginPass" required>
+          </div>
+          <button type="submit" name="login" value="login" class="btn btn-primary">Enviar</button>
+          <p href="register.php" class="text-primary ml-2 d-inline disabled" data-toggle="tooltip" data-placement="right" title="Puedes solicitar una cuenta postulandote para un equipo, o solicitando apadrinamiento ">Quiero solicitar una cuenta <ion-icon name="help-circle-outline" style="pointer-events: none;"></ion-icon></p>
+        </form>
+      </div>
+      <!-- /login -->
     <!-- Optional JavaScript; choose one of the two! -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -73,5 +75,12 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
     -->
+
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
   </body>
 </html>
