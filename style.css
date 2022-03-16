@@ -12,3 +12,11 @@
 .mw-200 {
     width: 100%;
 }
+
+.card-shadow {
+    box-shadow: 5px 5px 5px #607d36;
+}
+
+body {
+    background-color: #88B04B;
+}
