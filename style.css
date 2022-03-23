@@ -1,22 +1,26 @@
-@media (max-width: 768px) {
-    .mw-200 {
-        max-width: 400px;
-    }
-}
-@media (min-width: 768px) {
-    .mw-200 {
-        max-width: 200px;
-    }
-}
-
 .mw-200 {
+    max-width: 200px;
     width: 100%;
 }
 
 .card-shadow {
-    box-shadow: 5px 5px 5px #607d36;
+    box-shadow: 5px 5px 5px #497d36;
 }
 
 body {
-    background-color: #88B04B;
+    background-color: #5da145;
+}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("img/grass.jpg");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }

@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark" style="background-color: #607d36;">
+    <nav class="navbar navbar-dark" style="background-color: #497d36;">
         <a class="navbar-brand" href="index.html">Fútbol Argento <ion-icon name="football" style="vertical-align:-4px;"></ion-icon></a>
         <!--<ul class="navbar-nav ml-auto mr-5">
           <form class="form-inline my-2 my-lg-0">
@@ -38,7 +38,7 @@
                     <a class="nav-link" href="form-post.html">Quiero postularme para un equipo</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="form-apd.html">Quiero solicitar apadrinamiento</a>
+                    <a class="nav-link" href="form-apd.html">Quiero ingresar como patrocinador</a>
                   </li>
             </ul>
         </div>
