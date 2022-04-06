@@ -32,14 +32,17 @@
                   <a class="nav-link" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="equipos.html">Equipos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form-post.html">Quiero postularme para un equipo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form-apd.html">Quiero ingresar como patrocinador</a>
-                  </li>
+                  <a class="nav-link" href="equipos.html">Equipos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="form-post.html">Quiero postularme para un equipo</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="form-apd.html">Quiero ingresar como patrocinador</a>
+                </li>
             </ul>
         </div>
       </nav>

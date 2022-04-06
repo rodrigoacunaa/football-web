@@ -21,7 +21,7 @@
               <button class="btn btn-success my-2 my-sm-0" type="submit"><ion-icon name="search"></ion-icon></button>
             </form>
         </ul>-->
-        <a class='btn btn-outline-light ml-auto my-2 my-sm-0 mr-3 p-1' type='button' href='login.php'><ion-icon name="person-circle-outline" style="font-size: 32px; vertical-align: bottom;"></ion-icon></a>
+        <a class='btn btn-outline-light ml-auto my-2 my-sm-0 mr-3 p-1' type='button' href='perfilTemporal.html'><ion-icon name="person-circle-outline" style="font-size: 32px; vertical-align: bottom;"></ion-icon></a>
         <!--<a class='btn btn-outline-light ml-auto my-2 my-sm-0 mr-3' type='button' href='login.php'>Login</a>-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,14 +33,17 @@
                   <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="equipos.html">Equipos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form-post.html">Quiero postularme para un equipo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form-apd.html">Quiero ingresar como patrocinador</a>
-                  </li>
+                <a class="nav-link" href="equipos.html">Equipos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="form-post.html">Quiero postularme para un equipo</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="form-apd.html">Quiero ingresar como patrocinador</a>
+                </li>
             </ul>
         </div>
       </nav>
@@ -57,7 +60,7 @@
         <!-- Body -->
         <div class="row justify-content-center jugadas">
 
-            <div class="d-flex col-12 col-lg-5 py-2 mx-md-2 my-2 bg-white card-shadow">
+            <div class="d-flex col-12 col-lg-5 py-2 mx-lg-2 my-2 bg-white card-shadow">
               <img class="galeria-img col-6 m-0 p-0 bg-light" src="https://img.youtube.com/vi/yT7yw-vqKNA/mqdefault.jpg">
               <div class="col-6 my-auto text-center">
                 <button class="btn btn-primary w-100">Editar</button>
@@ -79,7 +82,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
     <script type="text/javascript">
-        var html = '<div class="d-flex col-12 col-lg-5 py-2 mx-md-2 my-2 bg-white card-shadow">' + '<img class="galeria-img col-6 m-0 p-0 bg-light" src="https://img.youtube.com/vi/yT7yw-vqKNA/mqdefault.jpg">' + '<div class="col-6 my-auto text-center">' + '<button class="btn btn-primary w-100">Editar</button>' + '<button class="btn btn-danger w-100">Eliminar</button>' + '</div></div>'
+        var html = '<div class="d-flex col-12 col-lg-5 py-2 mx-lg-2 my-2 bg-white card-shadow">' + '<img class="galeria-img col-6 m-0 p-0 bg-light" src="https://img.youtube.com/vi/yT7yw-vqKNA/mqdefault.jpg">' + '<div class="col-6 my-auto text-center">' + '<button class="btn btn-primary w-100">Editar</button>' + '<button class="btn btn-danger w-100">Eliminar</button>' + '</div></div>'
         $(".agregar").click(function(){
             $(".jugadas").append(html);
         });
