@@ -24,3 +24,7 @@ body {
   background-size: cover;
   position: relative;
 }
+
+.galeria-img {
+    object-fit: scale-down;
+}
